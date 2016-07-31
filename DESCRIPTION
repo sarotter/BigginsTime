@@ -7,7 +7,6 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: Takes in an integer variable that is supposed to represent time then turns it into a POSIXct variable.
 License: What license is it under?
 Imports:
-  stringr,
-  lubridate
+  stringr
 LazyData: TRUE
 RoxygenNote: 5.0.1
