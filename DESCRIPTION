@@ -1,9 +1,13 @@
 Package: BigginsTime
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Creates Time
 Version: 0.1.0
-Author: Who wrote it
+Author: Saul Rotter, Jess Reynolds-Smith
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: Takes in an integer variable that is supposed to represent time then turns it into a POSIXct variable.
 License: What license is it under?
+Imports:
+  stringr
 LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: testthat
