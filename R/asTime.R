@@ -15,7 +15,7 @@
 
 as.Time <- function(time, date = Sys.Date()) {
   if(class(time) != numeric) {
-      print("Invalid class for time")
-      stop()
+      stop("Invalid class for time", call. = FALSE)
   }
+  else if(time < 0 || time > 2359)
 }
