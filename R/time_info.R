@@ -6,7 +6,7 @@
 # 4. Check that a data/ folder was created and that there is a planets.rda file in it.
 
 time <- read.table(text = "
-                      day         date            time
+                       day        date            time
                        Sunday     2015-12-25      1200
                        Monday     2015-12-26      1234
                        Tuesday    2015-12-27      800
