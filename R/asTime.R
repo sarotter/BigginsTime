@@ -13,7 +13,7 @@
 #'
 as.Time <- function(time, date = Sys.Date()) {
   library(stringr)
-  if(class(time) != 'numeric') {
+  if(class(time) != 'numeric' & class(time) != 'integer') {
       stop("Invalid class for time", call. = FALSE)
   }
   else if (time < 0 || time >= 2400) {
